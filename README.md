@@ -13,7 +13,8 @@ NOTE: this requires the use of iTerm 2.9 or later.
 
 ### Add it to your gradle project
 
-```buildscript {
+```
+buildscript {
     repositories {
         jCenter()
     }
@@ -25,23 +26,32 @@ NOTE: this requires the use of iTerm 2.9 or later.
 
 ### Use the imgcat task
 
-```imgcat {
+```
+imgcat {
        source "giphy"
        value "android" // optional, omit for totally random giphy goodness
    }
 ```
 
-```imgcat {
+or
+
+```
+imgcat {
        source "remote"
        value "http://www.kizoa.com/img/e8nZC.gif"
    }
 ```
 
-```imgcat {
+or
+
+```
+imgcat {
        source "file"
        value "/home/you/amazing_gif_1337.gif"
    }
 ```
+
+And finally add the imgcat task to your build process
 
 ```
 assemble.dependsOn "imgcat"
