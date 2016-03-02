@@ -19,9 +19,6 @@ package at.maui.gradle.plugin.imgcat;
 import java.io.*;
 import java.net.URL;
 
-/**
- * Created by mauimauer on 2/29/16.
- */
 public class Utils {
     public static byte[] fetchUrl(URL url) throws IOException {
         return fetch(url.openStream());

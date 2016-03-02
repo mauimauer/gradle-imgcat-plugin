@@ -16,7 +16,6 @@
 
 package at.maui.gradle.plugin.imgcat;
 
-import java.io.*;
 import java.util.Base64;
 
 public class Imgcat {
