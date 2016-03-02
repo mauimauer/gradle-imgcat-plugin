@@ -1,8 +1,5 @@
 # gradle-imgcat-plugin
 
-[![GoDoc](https://godoc.org/github.com/martinlindhe/imgcat/lib?status.svg)](https://godoc.org/github.com/martinlindhe/imgcat/lib)
-
-
 Gradle plugin port of the iTerm2 imgcat script (with added Giphy goodness)
 
 * https://www.iterm2.com/images.html
@@ -28,27 +25,27 @@ buildscript {
 
 ```
 imgcat {
-       source "giphy"
-       value "android" // optional, omit for totally random giphy goodness
-   }
+    source "giphy"
+    value "android" // optional, omit for totally random giphy goodness
+}
 ```
 
 or
 
 ```
 imgcat {
-       source "remote"
-       value "http://www.kizoa.com/img/e8nZC.gif"
-   }
+    source "remote"
+    value "http://www.kizoa.com/img/e8nZC.gif"
+}
 ```
 
 or
 
 ```
 imgcat {
-       source "file"
-       value "/home/you/amazing_gif_1337.gif"
-   }
+    source "file"
+    value "/home/you/amazing_gif_1337.gif"
+}
 ```
 
 And finally add the imgcat task to your build process
