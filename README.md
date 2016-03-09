@@ -11,6 +11,8 @@ NOTE: this requires the use of iTerm 2.9 or later.
 ### Add it to your gradle project
 
 ```
+apply plugin: 'at.maui.gradle.plugin.imgcat'
+
 buildscript {
     repositories {
         jCenter()
