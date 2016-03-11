@@ -60,7 +60,7 @@ assemble.dependsOn "imgcat"
 
 Licensed under the terms of the Apache 2.0 License
 
-### License
+### Contribute
 
 Please see CONTRIBUTING.md for details on how to contribute to this project
 
